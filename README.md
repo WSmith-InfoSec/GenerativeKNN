@@ -1,3 +1,3 @@
 # GenerativeKNN
 
-Link to site: https://wsmith-infosec.github.io/GenerativeKNN/index.html
+Link to site: https://wsmith-infosec.github.io/GenerativeKNN/blob/main/index.html
