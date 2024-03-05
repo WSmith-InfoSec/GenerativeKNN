@@ -179,9 +179,9 @@
                         #####################################################
 
                         fig1, ax1 = plt.subplots()
-                        ##plt.set_cmap("hsv")
-                        plt.imshow(generated_img)                                     ##, cmap='hsv')
-                        ##plt.colorbar(label="Colorbar", orientation="vertical")
+                        plt.set_cmap("gray")
+                        plt.imshow(generated_img)                                     ##, cmap='gray')
+                        plt.colorbar(label="Colorbar", orientation="vertical")
                         ax1.set_title(str_conditions)
 
                         ## Element('mpl').element.innerText = ""        ## use this to not accumulate imgs
