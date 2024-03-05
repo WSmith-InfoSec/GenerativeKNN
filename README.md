@@ -1,2 +1,2 @@
 Generative KNN
-Link:https://wsmith-infosec.github.io/GenerativeKNN/Deploy/
+Link: https://wsmith-infosec.github.io/GenerativeKNN/Deploy/
