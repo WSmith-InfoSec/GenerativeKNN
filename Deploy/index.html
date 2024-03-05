@@ -35,20 +35,24 @@
  <table>
  
   <tr>
-     <td> WHEELS </td><br>
+     <td> WHEELS </td>
      <td> <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput1"/> </td>
-
-       <td> SPORTINESS </td><br>
-     <td>   <input type="text" style="border:3px solid #F7730E;" value="175" id="testInput2"/> </td>
-
-       <td> SPEED </td><br>
-     <td>  <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput3"/> </td>
-
-       <td> MODERN </td><br>
-     <td>   <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput4"/> </td>
-
-       <td> SIZE </td><br>
-     <td>       <input type="text" style="border:3px solid #F7730E;" value="300" id="testInput5"/>  </td>
+  </tr>
+  <tr>
+       <td> SPORTINESS </td>
+       <td> <input type="text" style="border:3px solid #F7730E;" value="175" id="testInput2"/> </td>
+  </tr>
+    <tr>
+       <td> SPEED </td>
+       <td><input type="text" style="border:3px solid #F7730E;" value="0" id="testInput3"/> </td>
+    </tr> 
+     <tr>
+       <td> MODERN </td>
+       <td><input type="text" style="border:3px solid #F7730E;" value="0" id="testInput4"/> </td>
+    </tr>
+     <tr>
+       <td> SIZE </td>
+       <td><input type="text" style="border:3px solid #F7730E;" value="300" id="testInput5"/>  </td>
   </tr>
      
  </table> 
@@ -175,6 +179,7 @@
                         #####################################################
 
                         fig1, ax1 = plt.subplots()
+                        plt.set_cmap("hsv")
                         plt.imshow(generated_img)                                     ##, cmap='hsv')
                         plt.colorbar(label="Colorbar", orientation="vertical")
                         ax1.set_title(str_conditions)
