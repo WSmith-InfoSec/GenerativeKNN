@@ -35,19 +35,19 @@
  <table>
  
   <tr>
-     <td> WH </td>
+     <td> WHEELS </td><br>
      <td> <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput1"/> </td>
 
-       <td> SRT </td>
+       <td> SPORTINESS </td><br>
      <td>   <input type="text" style="border:3px solid #F7730E;" value="175" id="testInput2"/> </td>
 
-       <td> SP </td>
+       <td> SPEED </td><br>
      <td>  <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput3"/> </td>
 
-       <td> MD </td>
+       <td> MODERN </td><br>
      <td>   <input type="text" style="border:3px solid #F7730E;" value="0" id="testInput4"/> </td>
 
-       <td> SZ </td>
+       <td> SIZE </td><br>
      <td>       <input type="text" style="border:3px solid #F7730E;" value="300" id="testInput5"/>  </td>
   </tr>
      
@@ -175,7 +175,7 @@
                         #####################################################
 
                         fig1, ax1 = plt.subplots()
-                        plt.imshow(generated_img)                                     ##, cmap='summer')
+                        plt.imshow(generated_img)                                     ##, cmap='hsv')
                         plt.colorbar(label="Colorbar", orientation="vertical")
                         ax1.set_title(str_conditions)
 
