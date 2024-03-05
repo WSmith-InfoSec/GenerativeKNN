@@ -37,7 +37,7 @@
   <tr>
      <td> WHEELS </td>
      <td> <input type="number" style="border:3px solid #F7730E;" value="0" id="testInput1" min="0" 
-        max="1" step="0.1"/> </td>
+        max="1" step="0.25"/> </td>
   </tr>
   <tr>
        <td> SPORTINESS </td>
@@ -57,7 +57,7 @@
      <tr>
        <td> SIZE </td>
        <td><input type="number" style="border:3px solid #F7730E;" value="0" id="testInput5" min="0" 
-        max="1" step="0.1"/>  </td>
+        max="1"/>  </td>
   </tr>
      
  </table> 
@@ -177,7 +177,7 @@
                     
                         #####################################################          
                         test_x = test_x.astype(int)
-                        str_conditions = np.array2string(test_x, precision=0, separator=',', suppress_small=True)
+                        str_conditions = np.array2string(test_x, precision=2, separator=',', suppress_small=True)
                         str_conditions = str_conditions.replace(" ","")
                         str_conditions = str_conditions.replace("[","")
                         str_conditions = str_conditions.replace("]","")
