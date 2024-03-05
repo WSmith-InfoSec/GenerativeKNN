@@ -153,7 +153,7 @@
                         c5 = float( Element('testInput5').element.value )
 
                         conditions_list = [c1, c2, c3, c4, c5]
-                        np_conditions_list = np.array(conditions_list, dtype='float32')
+                        np_conditions_list = np.array(conditions_list, dtype='f')
                         np_conditions_list = np.expand_dims(np_conditions_list, axis=0)
 
                         return np_conditions_list
