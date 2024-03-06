@@ -176,7 +176,7 @@
                         generated_img = predict( test_x )
                     
                         #####################################################          
-                        test_x = test_x.astype(int)
+                        test_x = test_x.astype(float)
                         str_conditions = np.array2string(test_x, precision=2, separator=',', suppress_small=True)
                         str_conditions = str_conditions.replace(" ","")
                         str_conditions = str_conditions.replace("[","")
