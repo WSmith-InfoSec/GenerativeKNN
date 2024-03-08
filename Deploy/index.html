@@ -170,7 +170,7 @@
                         text3 = str(pd_imgs_np_train_np.shape)
                         text4 = str(test_x.shape)
                         text = text1 + text2 + text3 + text4
-                        Element('test-output').element.innerText =  text   
+                        ## Element('test-output').element.innerText =  text   
                         #####################################################
                         
                         generated_img = predict( test_x )
@@ -184,9 +184,9 @@
                         #####################################################
 
                         fig1, ax1 = plt.subplots()
-                        ##plt.set_cmap("gray")
+                        plt.set_cmap("gray")
                         plt.imshow(generated_img)                                     ##, cmap='gray')
-                        ##plt.colorbar(label="Colorbar", orientation="vertical")
+                        plt.colorbar(label="Colorbar", orientation="vertical")
                         ax1.set_title(str_conditions)
 
                         ## Element('mpl').element.innerText = ""        ## use this to not accumulate imgs
