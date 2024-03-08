@@ -184,6 +184,7 @@
                         #####################################################
 
                         fig1, ax1 = plt.subplots()
+                        plt.rcParams['figure.figsize'] = [10, 10]
                         plt.set_cmap("gray")
                         plt.imshow(generated_img)                                     ##, cmap='gray')
                         plt.colorbar(label="Colorbar", orientation="vertical")
